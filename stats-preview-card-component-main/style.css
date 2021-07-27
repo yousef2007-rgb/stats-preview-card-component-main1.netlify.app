@@ -1,0 +1,125 @@
+@media (max-width: 750px) {
+  .Card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Card img {
+    width: 100%;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+}
+
+@media (min-width: 750px) {
+  .Card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .Card img {
+    width: auto;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+  }
+}
+
+body {
+  background-color: #090b1a;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 30px;
+  font-family: 'Inter', sans-serif;
+}
+
+.Card {
+  background-color: #1b1938;
+  border-radius: 20px;
+  position: relative;
+}
+
+.Card img {
+  -webkit-filter: invert(0%) sepia(29%) saturate(7454%) hue-rotate(244deg) brightness(90%) contrast(50%);
+          filter: invert(0%) sepia(29%) saturate(7454%) hue-rotate(244deg) brightness(90%) contrast(50%);
+}
+
+.Card .text {
+  padding: 50px;
+}
+
+h3 {
+  display: inline;
+}
+
+.stats-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.stats h3 {
+  color: white;
+}
+
+.stats span {
+  color: rgba(255, 255, 255, 0.75);
+}
+/*# sourceMappingURL=style.css.map */
